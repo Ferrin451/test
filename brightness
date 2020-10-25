@@ -1,0 +1,13 @@
+
+   11  xrandr --output LVDS-1 --brightness .75
+   12  xrandr --output LVDS-1 --brightness .4
+   13  xrandr --output LVDS-1 --brightness .25
+   14  xrandr --output LVDS-1 --brightness .75
+   15  xrandr --output LVDS-1 --brightness .25
+
+
+Trouble With Screen Brightness on Acer Aspire 5733z
+
+    Try using the acpi_backlight=vendor kernel parameter. To test it, follow the "Temporarily Add a Kernel Boot Parameter for Testing" instructions in the Kernel Boot Parameters wiki. If anything goes wrong, simply restart the computer to get it back to where it is now. If it works, we'll make it permanent. 
+
+https://wiki.ubuntu.com/Kernel/KernelBootParameters
